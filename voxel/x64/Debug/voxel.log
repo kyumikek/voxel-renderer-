@@ -1,116 +1,49 @@
-﻿  main.c
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(46,30): warning C4244: "=": konwersja z "int" do "float", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(47,32): warning C4244: "=": konwersja z "int" do "float", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(48,32): warning C4244: "=": konwersja z "int" do "float", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(53,32): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(53,48): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(53,64): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(54,31): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(54,47): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(54,63): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(55,31): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(55,46): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(55,62): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(56,32): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(56,48): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(56,64): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(57,31): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(57,46): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(57,62): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(58,32): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(58,47): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(58,63): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(61,32): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(61,48): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(61,63): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(62,31): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(62,47): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(62,62): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(63,31): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(63,46): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(63,61): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(64,32): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(64,48): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(64,63): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(65,31): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(65,46): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(65,61): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(66,32): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(66,47): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(66,62): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(69,32): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(69,48): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(69,64): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(70,32): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(70,47): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(70,63): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(71,32): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(71,47): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(71,62): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(72,32): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(72,48): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(72,64): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(73,32): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(73,47): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(73,62): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(74,32): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(74,48): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(74,63): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(77,31): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(77,47): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(77,63): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(78,31): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(78,46): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(78,62): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(79,31): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(79,46): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(79,61): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(80,31): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(80,47): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(80,63): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(81,31): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(81,46): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(81,61): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(82,31): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(82,47): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(82,62): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(85,32): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(85,48): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(85,64): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(86,31): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(86,47): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(86,63): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(87,31): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(87,47): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(87,62): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(88,32): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(88,48): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(88,64): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(89,31): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(89,47): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(89,62): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(90,32): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(90,48): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(90,63): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(93,32): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(93,47): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(93,63): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(94,31): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(94,46): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(94,62): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(95,31): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(95,46): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(95,61): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(96,32): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(96,47): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(96,63): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(97,31): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(97,46): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(97,61): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(98,32): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(98,47): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(98,62): warning C4244: "funkcja": konwersja z "double" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.c(50): warning C4716: "SetVertex": musi zwracać wartość
+﻿  main.cpp
+C:\Users\kyubi\source\repos\voxel\voxel\mesher.h(33,24): warning C4838: konwersja z „int” do „float” wymaga konwersji zawężającej
+  (kompilowanie pliku źródłowego „main.cpp”)
+  
+C:\Users\kyubi\source\repos\voxel\voxel\mesher.h(33,24): warning C4244: "inicjowanie": konwersja z "int" do "float", możliwa utrata danych
+  (kompilowanie pliku źródłowego „main.cpp”)
+  
+C:\Users\kyubi\source\repos\voxel\voxel\mesher.h(33,26): warning C4838: konwersja z „int” do „float” wymaga konwersji zawężającej
+  (kompilowanie pliku źródłowego „main.cpp”)
+  
+C:\Users\kyubi\source\repos\voxel\voxel\mesher.h(33,26): warning C4244: "inicjowanie": konwersja z "int" do "float", możliwa utrata danych
+  (kompilowanie pliku źródłowego „main.cpp”)
+  
+C:\Users\kyubi\source\repos\voxel\voxel\mesher.h(33,28): warning C4838: konwersja z „int” do „float” wymaga konwersji zawężającej
+  (kompilowanie pliku źródłowego „main.cpp”)
+  
+C:\Users\kyubi\source\repos\voxel\voxel\mesher.h(33,28): warning C4244: "inicjowanie": konwersja z "int" do "float", możliwa utrata danych
+  (kompilowanie pliku źródłowego „main.cpp”)
+  
+C:\Users\kyubi\source\repos\voxel\voxel\mesher.h(39,49): warning C4244: "=": konwersja z "int" do "float", możliwa utrata danych
+  (kompilowanie pliku źródłowego „main.cpp”)
+  
+C:\Users\kyubi\source\repos\voxel\voxel\mesher.h(41,49): warning C4244: "=": konwersja z "int" do "float", możliwa utrata danych
+  (kompilowanie pliku źródłowego „main.cpp”)
+  
+C:\Users\kyubi\source\repos\voxel\voxel\mesher.h(43,49): warning C4244: "=": konwersja z "int" do "float", możliwa utrata danych
+  (kompilowanie pliku źródłowego „main.cpp”)
+  
+C:\Users\kyubi\source\repos\voxel\voxel\mesher.h(129,43): warning C4305: "argument": obcięcie z "double" do "float"
+  (kompilowanie pliku źródłowego „main.cpp”)
+  
+C:\Users\kyubi\source\repos\voxel\voxel\mesher.h(129,38): warning C4305: "argument": obcięcie z "double" do "float"
+  (kompilowanie pliku źródłowego „main.cpp”)
+  
+C:\Users\kyubi\source\repos\voxel\voxel\main.cpp(66,29): warning C4244: "=": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\kyubi\source\repos\voxel\voxel\main.cpp(67,29): warning C4244: "=": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\kyubi\source\repos\voxel\voxel\main.cpp(68,29): warning C4244: "=": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\kyubi\source\repos\voxel\voxel\main.cpp(72,110): warning C4244: "argument": konwersja z "float" do "int", możliwa utrata danych
+C:\Users\kyubi\source\repos\voxel\voxel\main.cpp(72,87): warning C4244: "argument": konwersja z "float" do "int", możliwa utrata danych
+C:\Users\kyubi\source\repos\voxel\voxel\main.cpp(72,64): warning C4244: "argument": konwersja z "float" do "int", możliwa utrata danych
+C:\Users\kyubi\source\repos\voxel\voxel\main.cpp(73,115): warning C4244: "argument": konwersja z "float" do "int", możliwa utrata danych
+C:\Users\kyubi\source\repos\voxel\voxel\main.cpp(73,92): warning C4244: "argument": konwersja z "float" do "int", możliwa utrata danych
+C:\Users\kyubi\source\repos\voxel\voxel\main.cpp(73,69): warning C4244: "argument": konwersja z "float" do "int", możliwa utrata danych
+C:\Users\kyubi\source\repos\voxel\voxel\main.cpp(74,103): warning C4244: "argument": konwersja z "float" do "int", możliwa utrata danych
+C:\Users\kyubi\source\repos\voxel\voxel\main.cpp(74,80): warning C4244: "argument": konwersja z "float" do "int", możliwa utrata danych
+C:\Users\kyubi\source\repos\voxel\voxel\main.cpp(74,57): warning C4244: "argument": konwersja z "float" do "int", możliwa utrata danych
   voxel.vcxproj -> C:\Users\kyubi\source\repos\voxel\x64\Debug\voxel.exe
   'pwsh.exe' is not recognized as an internal or external command,
   operable program or batch file.
