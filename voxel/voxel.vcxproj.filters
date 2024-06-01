@@ -18,9 +18,24 @@
     <ClCompile Include="main.cpp">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
+    <ClCompile Include="chunk.hpp">
+      <Filter>Pliki zasobów</Filter>
+    </ClCompile>
+    <ClCompile Include="mesher.cpp">
+      <Filter>Pliki zasobów</Filter>
+    </ClCompile>
+    <ClCompile Include="chunk.cpp">
+      <Filter>Pliki zasobów</Filter>
+    </ClCompile>
+    <ClCompile Include="noise.cpp">
+      <Filter>Pliki zasobów</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="mesher.h">
+    <ClInclude Include="mesher.hpp">
+      <Filter>Pliki zasobów</Filter>
+    </ClInclude>
+    <ClInclude Include="noise.hpp">
       <Filter>Pliki zasobów</Filter>
     </ClInclude>
   </ItemGroup>

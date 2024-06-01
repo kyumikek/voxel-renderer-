@@ -127,10 +127,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="chunk.cpp" />
+    <ClCompile Include="chunk.hpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="mesher.cpp" />
+    <ClCompile Include="noise.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="mesher.h" />
+    <ClInclude Include="mesher.hpp" />
+    <ClInclude Include="noise.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
