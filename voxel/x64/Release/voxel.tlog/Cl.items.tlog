@@ -1,4 +1,7 @@
 C:\Users\kyubi\source\repos\voxel\voxel\chunk.cpp;C:\Users\kyubi\source\repos\voxel\voxel\x64\Release\chunk.obj
 C:\Users\kyubi\source\repos\voxel\voxel\chunk.hpp;C:\Users\kyubi\source\repos\voxel\voxel\x64\Release\chunk.obj
+C:\Users\kyubi\source\repos\voxel\voxel\entities.cpp;C:\Users\kyubi\source\repos\voxel\voxel\x64\Release\entities.obj
 C:\Users\kyubi\source\repos\voxel\voxel\main.cpp;C:\Users\kyubi\source\repos\voxel\voxel\x64\Release\main.obj
+C:\Users\kyubi\source\repos\voxel\voxel\manager.cpp;C:\Users\kyubi\source\repos\voxel\voxel\x64\Release\manager.obj
 C:\Users\kyubi\source\repos\voxel\voxel\mesher.cpp;C:\Users\kyubi\source\repos\voxel\voxel\x64\Release\mesher.obj
+C:\Users\kyubi\source\repos\voxel\voxel\noise.cpp;C:\Users\kyubi\source\repos\voxel\voxel\x64\Release\noise.obj

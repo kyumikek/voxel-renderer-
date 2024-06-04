@@ -129,13 +129,20 @@
   <ItemGroup>
     <ClCompile Include="chunk.cpp" />
     <ClCompile Include="chunk.hpp" />
+    <ClCompile Include="entities.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="manager.cpp" />
     <ClCompile Include="mesher.cpp" />
     <ClCompile Include="noise.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="entities.hpp" />
+    <ClInclude Include="manager.hpp" />
     <ClInclude Include="mesher.hpp" />
     <ClInclude Include="noise.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="textures.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

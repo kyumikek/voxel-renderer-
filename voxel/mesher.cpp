@@ -3,6 +3,7 @@
 #include "rlgl.h"
 #include <iostream>
 #include <vector>
+
 #define blockSize 1
 Vector3 castVector3(int x, int y, int z) {
     Vector3 newVec = { x,y,z };
@@ -138,14 +139,9 @@ Model GenMeshCustom(std::vector<BlockData> _blockList)
     _model._mesh.texcoords = (float*)MemAlloc(_model._mesh.vertexCount * 2 * sizeof(float));   // 3 vertices, 2 coordinates each (x, y)
     _model._mesh.normals = (float*)MemAlloc(_model._mesh.vertexCount * 3 * sizeof(float));     // 3 vertices, 3 coordinates each (x, y, z)
     BLOCK_TYPES types[4] = { GRASS,DIRT,STONE,WATER };
-    int r = 0;
     for (const BlockData _block : _blockList) {
-        if (r > 4) {
-            r = 0;
-        }
-        addCubeType(&_model, _block.x * blockSize, _block.y * blockSize, _block.z * blockSize, _block.width, _block.length,1, _block.type, _block);
-        r += 1;
-
+        
+        addCubeType(&_model, _block.x * blockSize, _block.y * blockSize, _block.z * blockSize, _block.width, _block.length,_block.height, _block.type, _block);
     }
     // Upload mesh data from CPU (RAM) to GPU (VRAM) memory
     UploadMesh(&_model._mesh, false);

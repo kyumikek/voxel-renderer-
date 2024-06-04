@@ -1,13 +1,7 @@
-﻿  main.cpp
-C:\Users\kyubi\source\repos\voxel\voxel\main.cpp(18,33): warning C4244: "=": konwersja z "int" do "float", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.cpp(19,33): warning C4244: "=": konwersja z "int" do "float", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.cpp(20,33): warning C4244: "=": konwersja z "int" do "float", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.cpp(57,48): warning C4244: "=": konwersja z "int" do "float", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.cpp(58,48): warning C4244: "=": konwersja z "int" do "float", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.cpp(59,16): warning C4244: "inicjowanie": konwersja z "float" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.cpp(60,16): warning C4244: "inicjowanie": konwersja z "float" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.cpp(69,37): warning C4244: "argument": konwersja z "float" do "int", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\main.cpp(69,28): warning C4244: "argument": konwersja z "float" do "int", możliwa utrata danych
+﻿  chunk.cpp
+C:\Users\kyubi\source\repos\voxel\voxel\chunk.cpp(110,25): warning C4244: "=": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\kyubi\source\repos\voxel\voxel\chunk.cpp(111,25): warning C4244: "=": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\kyubi\source\repos\voxel\voxel\chunk.cpp(112,25): warning C4244: "=": konwersja z "int" do "float", możliwa utrata danych
   voxel.vcxproj -> C:\Users\kyubi\source\repos\voxel\x64\Debug\voxel.exe
   'pwsh.exe' is not recognized as an internal or external command,
   operable program or batch file.

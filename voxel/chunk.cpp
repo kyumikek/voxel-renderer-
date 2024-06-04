@@ -19,46 +19,46 @@ void Block::setup(int x, int y, int z, BLOCK_TYPES type) {
     this->alive = true;
 }
 void Block::greed(Block(&_blocks)[16][256][16]) {
-    int width = 1, length = 1;
-    bool extendWidth = true, extendLength = true;
+    int width = 1, length = 1, height = 1;
+    const int maxX = 16, maxY = 256, maxZ = 16;
+
+    // Helper function to check block status
+    auto isSameTypeAndAlive = [&](int x, int y, int z) {
+        return x >= 0 && x < maxX && y >= 0 && y < maxY && z >= 0 && z < maxZ &&
+            _blocks[x][y][z].alive && _blocks[x][y][z]._data.type == _data.type;
+        };
 
     // Extend width
-    while (extendWidth && _data.x + width < 16) {
-        for (int z = 0; z < length; ++z) {
-            if (!_blocks[_data.x + width][_data.y][_data.z + z].alive ||
-                _blocks[_data.x + width][_data.y][_data.z + z]._data.type != _data.type) {
-                extendWidth = false;
-                break;
-            }
-        }
-        if (extendWidth) {
-            for (int z = 0; z < length; ++z) {
-                _blocks[_data.x + width][_data.y][_data.z + z].alive = false;
-            }
-            ++width;
-        }
-    }
-    // Extend length
-    while (extendLength && _data.z + length < 16) {
-        for (int x = 0; x < width; ++x) {
-            if (!_blocks[_data.x + x][_data.y][_data.z + length].alive ||
-                _blocks[_data.x + x][_data.y][_data.z + length]._data.type != _data.type) {
-                extendLength = false;
-                break;
-            }
-        }
-        if (extendLength) {
-            for (int x = 0; x < width; ++x) {
-                _blocks[_data.x + x][_data.y][_data.z + length].alive = false;
-            }
-            ++length;
-        }
+    while (_data.x + width < maxX && isSameTypeAndAlive(_data.x + width, _data.y, _data.z)) {
+        for (uint8_t z = 0; z < length; ++z)
+            for (uint8_t y = 0; y < height; ++y)
+                _blocks[_data.x + width][_data.y + y][_data.z + z].meshed = true;
+        ++width;
     }
 
+    // Extend length
+    while (_data.z + length < maxZ && isSameTypeAndAlive(_data.x, _data.y, _data.z + length)) {
+        for (uint8_t x = 0; x < width; ++x)
+            for (uint8_t y = 0; y < height; ++y)
+                _blocks[_data.x + x][_data.y + y][_data.z + length].meshed = true;
+        ++length;
+    }
+
+    // Extend height
+    while (_data.y + height < maxY && isSameTypeAndAlive(_data.x, _data.y + height, _data.z)) {
+        for (uint8_t x = 0; x < width; ++x)
+            for (uint8_t z = 0; z < length; ++z)
+                _blocks[_data.x + x][_data.y + height][_data.z + z].meshed = true;
+        ++height;
+    }
+
+    // Check top and bottom obscuration
+    _data.topObscured = _data.bottomObscured = false;
+    // Update other obscuration flags
     _data.width = width;
     _data.length = length;
-    
-    
+    _data.height = height;
+    _data.rightObscured = _data.leftObscured = _data.backObscured = _data.frontObscured = false;
 }
 void Chunk::generateModel() {
 
@@ -66,23 +66,24 @@ void Chunk::generateModel() {
     for (int x = 0; x < 16; x += 1) {
         for (int y = 0; y < 256; y += 1) {
             for (int z = 0; z < 16; z += 1) {
-                _blocks[x][y][z].checkObscures(_blocks);
-                if (_blocks[x][y][z]._data.backObscured == false ||
-                    _blocks[x][y][z]._data.leftObscured == false ||
-                    _blocks[x][y][z]._data.frontObscured == false ||
-                    _blocks[x][y][z]._data.rightObscured == false ||
-                    _blocks[x][y][z]._data.topObscured == false ||
-                    _blocks[x][y][z]._data.bottomObscured == false
-                ) _blocks[x][y][z].greed(_blocks);
+                this->_blocks[x][y][z].checkObscures(this->_blocks);
+                if (this->_blocks[x][y][z]._data.backObscured == false ||
+                    this->_blocks[x][y][z]._data.leftObscured == false ||
+                    this->_blocks[x][y][z]._data.frontObscured == false ||
+                    this->_blocks[x][y][z]._data.rightObscured == false) {
+                    if (!this->_blocks[x][y][z].meshed) this->_blocks[x][y][z].greed(this->_blocks);
+                }
+                
             }
         }
     }
-    _blockData.clear();
+    this->_aliveBlocks.clear();
     for (int x = 0; x < 16; x += 1) {
         for (int y = 0; y < 256; y += 1) {
             for (int z = 0; z < 16; z += 1) {
-                if (_blocks[x][y][z].alive) {
-                    _blockData.push_back(_blocks[x][y][z]._data);
+                if (this->_blocks[x][y][z].alive) {
+                    this->_aliveBlocks.push_back(&_blocks[x][y][z]);
+                    if (!this->_blocks[x][y][z].meshed) this->_blockData.push_back(this->_blocks[x][y][z]._data);
                 }
             }
         }
@@ -90,8 +91,10 @@ void Chunk::generateModel() {
 
     this->_model = GenMeshCustom(_blockData);
     this->_model.materials[0].maps[MATERIAL_MAP_DIFFUSE].texture = this->_textureMap;
+    this->_needToGenerate = false;
+
 }
-void Chunk::spawnTree(uint8_t tx, uint8_t ty, uint8_t tz) {
+int Chunk::spawnTree(uint8_t tx, uint8_t ty, uint8_t tz) {
     for (uint8_t i = 0; i < 3; i += 1) {
         this->_blocks[tx][ty+i][tz].setup(tx, ty+i, tz, DIRT);
     }
@@ -102,8 +105,9 @@ void Chunk::spawnTree(uint8_t tx, uint8_t ty, uint8_t tz) {
             }
         }
     }
+    return 0;
 }
-void Chunk::setup(Texture2D _texture, int cx, int cy, int cz, int permutation_table[256]) {
+int Chunk::setup(Texture2D _texture, int cx, int cy, int cz, int permutation_table[256]) {
     this->_textureMap = _texture;
     this->_chunkPos.x = cx;
     this->_chunkPos.y = cy;
@@ -123,8 +127,13 @@ void Chunk::setup(Texture2D _texture, int cx, int cy, int cz, int permutation_ta
         }
     }
     this->generateModel();
+    return 0;
 }
 void Chunk::update() {
     DrawModel(this->_model, this->_chunkPos, 1, WHITE);
+    for (uint8_t x = 0; x < 16; x++) {
+        for (int z = 0; z < 16; z++) {
 
+        }
+    }
 }

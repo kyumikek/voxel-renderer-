@@ -13,13 +13,13 @@
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
     </Filter>
+    <Filter Include="textures">
+      <UniqueIdentifier>{5d1e8d67-6871-4e03-9aef-b8f5964dd9dc}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Pliki źródłowe</Filter>
-    </ClCompile>
-    <ClCompile Include="chunk.hpp">
-      <Filter>Pliki zasobów</Filter>
     </ClCompile>
     <ClCompile Include="mesher.cpp">
       <Filter>Pliki zasobów</Filter>
@@ -30,13 +30,33 @@
     <ClCompile Include="noise.cpp">
       <Filter>Pliki zasobów</Filter>
     </ClCompile>
+    <ClCompile Include="chunk.hpp">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClCompile>
+    <ClCompile Include="manager.cpp">
+      <Filter>Pliki zasobów</Filter>
+    </ClCompile>
+    <ClCompile Include="entities.cpp">
+      <Filter>Pliki zasobów</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="mesher.hpp">
-      <Filter>Pliki zasobów</Filter>
-    </ClInclude>
     <ClInclude Include="noise.hpp">
-      <Filter>Pliki zasobów</Filter>
+      <Filter>Pliki nagłówkowe</Filter>
     </ClInclude>
+    <ClInclude Include="mesher.hpp">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="manager.hpp">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="entities.hpp">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="textures.png">
+      <Filter>textures</Filter>
+    </Image>
   </ItemGroup>
 </Project>

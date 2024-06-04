@@ -16,6 +16,7 @@ struct BlockData {
     uint8_t z;
     uint8_t width;
     uint8_t length;
+    uint8_t height;
     bool obstructed;
     bool frontObscured;
     bool backObscured;

@@ -1,75 +1,13 @@
-﻿  chunk.cpp
-C:\Users\kyubi\source\repos\voxel\voxel\chunk.cpp(95,25): warning C4244: "=": konwersja z "int" do "float", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\chunk.cpp(96,25): warning C4244: "=": konwersja z "int" do "float", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\chunk.cpp(97,25): warning C4244: "=": konwersja z "int" do "float", możliwa utrata danych
-  mesher.cpp
-C:\Users\kyubi\source\repos\voxel\voxel\mesher.cpp(8,24): warning C4838: konwersja z „int” do „float” wymaga konwersji zawężającej
-C:\Users\kyubi\source\repos\voxel\voxel\mesher.cpp(8,24): warning C4244: "inicjowanie": konwersja z "int" do "float", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\mesher.cpp(8,26): warning C4838: konwersja z „int” do „float” wymaga konwersji zawężającej
-C:\Users\kyubi\source\repos\voxel\voxel\mesher.cpp(8,26): warning C4244: "inicjowanie": konwersja z "int" do "float", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\mesher.cpp(8,28): warning C4838: konwersja z „int” do „float” wymaga konwersji zawężającej
-C:\Users\kyubi\source\repos\voxel\voxel\mesher.cpp(8,28): warning C4244: "inicjowanie": konwersja z "int" do "float", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\mesher.cpp(34,29): warning C4244: "argument": konwersja z "float" do "uint16_t", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\mesher.cpp(35,41): warning C4244: "argument": konwersja z "float" do "uint16_t", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\mesher.cpp(35,29): warning C4244: "argument": konwersja z "float" do "uint16_t", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\mesher.cpp(37,41): warning C4244: "argument": konwersja z "float" do "uint16_t", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\mesher.cpp(37,29): warning C4244: "argument": konwersja z "float" do "uint16_t", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\mesher.cpp(38,32): warning C4244: "argument": konwersja z "float" do "uint16_t", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\mesher.cpp(43,35): warning C4244: "argument": konwersja z "float" do "uint16_t", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\mesher.cpp(44,44): warning C4244: "argument": konwersja z "float" do "uint16_t", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\mesher.cpp(44,29): warning C4244: "argument": konwersja z "float" do "uint16_t", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\mesher.cpp(45,53): warning C4244: "argument": konwersja z "float" do "uint16_t", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\mesher.cpp(45,41): warning C4244: "argument": konwersja z "float" do "uint16_t", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\mesher.cpp(45,29): warning C4244: "argument": konwersja z "float" do "uint16_t", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\mesher.cpp(46,35): warning C4244: "argument": konwersja z "float" do "uint16_t", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\mesher.cpp(47,53): warning C4244: "argument": konwersja z "float" do "uint16_t", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\mesher.cpp(47,41): warning C4244: "argument": konwersja z "float" do "uint16_t", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\mesher.cpp(47,29): warning C4244: "argument": konwersja z "float" do "uint16_t", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\mesher.cpp(48,44): warning C4244: "argument": konwersja z "float" do "uint16_t", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\mesher.cpp(48,32): warning C4244: "argument": konwersja z "float" do "uint16_t", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\mesher.cpp(54,32): warning C4244: "argument": konwersja z "float" do "uint16_t", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\mesher.cpp(55,44): warning C4244: "argument": konwersja z "float" do "uint16_t", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\mesher.cpp(55,32): warning C4244: "argument": konwersja z "float" do "uint16_t", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\mesher.cpp(57,44): warning C4244: "argument": konwersja z "float" do "uint16_t", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\mesher.cpp(57,32): warning C4244: "argument": konwersja z "float" do "uint16_t", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\mesher.cpp(58,35): warning C4244: "argument": konwersja z "float" do "uint16_t", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\mesher.cpp(63,29): warning C4244: "argument": konwersja z "float" do "uint16_t", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\mesher.cpp(64,41): warning C4244: "argument": konwersja z "float" do "uint16_t", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\mesher.cpp(64,29): warning C4244: "argument": konwersja z "float" do "uint16_t", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\mesher.cpp(65,53): warning C4244: "argument": konwersja z "float" do "uint16_t", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\mesher.cpp(65,41): warning C4244: "argument": konwersja z "float" do "uint16_t", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\mesher.cpp(65,29): warning C4244: "argument": konwersja z "float" do "uint16_t", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\mesher.cpp(66,29): warning C4244: "argument": konwersja z "float" do "uint16_t", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\mesher.cpp(67,53): warning C4244: "argument": konwersja z "float" do "uint16_t", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\mesher.cpp(67,41): warning C4244: "argument": konwersja z "float" do "uint16_t", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\mesher.cpp(67,29): warning C4244: "argument": konwersja z "float" do "uint16_t", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\mesher.cpp(68,44): warning C4244: "argument": konwersja z "float" do "uint16_t", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\mesher.cpp(68,29): warning C4244: "argument": konwersja z "float" do "uint16_t", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\mesher.cpp(74,29): warning C4244: "argument": konwersja z "float" do "uint16_t", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\mesher.cpp(75,44): warning C4244: "argument": konwersja z "float" do "uint16_t", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\mesher.cpp(75,29): warning C4244: "argument": konwersja z "float" do "uint16_t", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\mesher.cpp(77,44): warning C4244: "argument": konwersja z "float" do "uint16_t", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\mesher.cpp(77,29): warning C4244: "argument": konwersja z "float" do "uint16_t", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\mesher.cpp(78,35): warning C4244: "argument": konwersja z "float" do "uint16_t", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\mesher.cpp(83,32): warning C4244: "argument": konwersja z "float" do "uint16_t", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\mesher.cpp(84,41): warning C4244: "argument": konwersja z "float" do "uint16_t", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\mesher.cpp(84,29): warning C4244: "argument": konwersja z "float" do "uint16_t", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\mesher.cpp(85,53): warning C4244: "argument": konwersja z "float" do "uint16_t", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\mesher.cpp(85,41): warning C4244: "argument": konwersja z "float" do "uint16_t", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\mesher.cpp(85,29): warning C4244: "argument": konwersja z "float" do "uint16_t", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\mesher.cpp(86,32): warning C4244: "argument": konwersja z "float" do "uint16_t", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\mesher.cpp(87,53): warning C4244: "argument": konwersja z "float" do "uint16_t", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\mesher.cpp(87,41): warning C4244: "argument": konwersja z "float" do "uint16_t", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\mesher.cpp(87,29): warning C4244: "argument": konwersja z "float" do "uint16_t", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\mesher.cpp(88,44): warning C4244: "argument": konwersja z "float" do "uint16_t", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\mesher.cpp(88,32): warning C4244: "argument": konwersja z "float" do "uint16_t", możliwa utrata danych
-C:\Users\kyubi\source\repos\voxel\voxel\mesher.cpp(107,66): warning C4305: "argument": obcięcie z "double" do "float"
-C:\Users\kyubi\source\repos\voxel\voxel\mesher.cpp(107,61): warning C4305: "argument": obcięcie z "double" do "float"
+﻿  manager.cpp
+C:\Users\kyubi\source\repos\voxel\voxel\manager.cpp(11,44): warning C4244: "=": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\kyubi\source\repos\voxel\voxel\manager.cpp(12,44): warning C4244: "=": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\kyubi\source\repos\voxel\voxel\manager.cpp(14,12): warning C4244: "inicjowanie": konwersja z "float" do "int", możliwa utrata danych
+C:\Users\kyubi\source\repos\voxel\voxel\manager.cpp(15,12): warning C4244: "inicjowanie": konwersja z "float" do "int", możliwa utrata danych
 x64\Release\chunk.obj : warning LNK4042: obiekt określono więcej niż raz; dodatkowe wystąpienia zostały zignorowane
   Trwa generowanie kodu
-  3 of 278 functions ( 1.1%) were compiled, the rest were copied from previous compilation.
+  6 of 329 functions ( 1.8%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
-    1 functions had inline decision re-evaluated but remain unchanged
+    0 functions had inline decision re-evaluated but remain unchanged
   Zakończono generowanie kodu
   voxel.vcxproj -> C:\Users\kyubi\source\repos\voxel\x64\Release\voxel.exe
   'pwsh.exe' is not recognized as an internal or external command,
